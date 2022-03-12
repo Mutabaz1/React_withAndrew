@@ -1,0 +1,35 @@
+{
+    "name": "expensify",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Mutabazi Willy",
+    "license": "MIT",
+    "scripts": {
+        "serve": "live-server public/",
+        "build": "webpack",
+        "dev-server": "webpack-dev-server"
+    },
+    "dependencies": {
+        "babel-cli": "6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "8.2.3",
+        "babel-plugin-transform-class-properties": "6.24.1",
+        "babel-preset-env": "1.7.0",
+        "babel-preset-react": "6.24.1",
+        "css-loader": "6.7.1",
+        "live-server": "^1.2.1",
+        "node-sass": "7.0.1",
+        "normalize.css": "8.0.1",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "react-modal": "3.14.4",
+        "react-router-dom": "^6.2.2",
+        "sass-loader": "12.6.0",
+        "style-loader": "3.3.1",
+        "uuid": "^8.3.2",
+        "validator": "13.7.0",
+        "webpack": "5.70.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "4.7.4"
+    }
+}
